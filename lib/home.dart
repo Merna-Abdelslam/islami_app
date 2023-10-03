@@ -7,6 +7,7 @@ import 'package:flutter1/tabs/sebha_Tap.dart';
 import 'package:flutter1/tabs/setting_tap.dart';
 
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class homeScreen extends StatefulWidget {
   static const String routeName = "home";
@@ -25,7 +26,7 @@ int index=0;
       double.infinity, fit: BoxFit.cover,),
         Scaffold(
           appBar: AppBar(
-            title: Text("Islami", style: Theme
+            title: Text(AppLocalizations.of(context)!.appTitle, style: Theme
                 .of(context)
                 .textTheme
                 .bodyLarge),

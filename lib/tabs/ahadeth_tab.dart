@@ -4,7 +4,7 @@ import 'package:flutter1/HadethDetails.dart';
 import 'package:flutter1/hadethModel.dart';
 
 import '../myThemData.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 class AhadethTap extends StatelessWidget {
   List<HadethModel> allAhadeth = [];
 
@@ -18,7 +18,7 @@ class AhadethTap extends StatelessWidget {
           thickness: 3,
           color: MyThemeData.primarycolor,
         ),
-        Text("Ahadeth", style: Theme.of(context).textTheme.bodyLarge),
+        Text(AppLocalizations.of(context)!.ahadeth, style: Theme.of(context).textTheme.bodyLarge),
         Divider(
           thickness: 3,
           color: MyThemeData.primarycolor,
