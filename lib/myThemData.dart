@@ -31,7 +31,7 @@ class MyThemeData {
         type: BottomNavigationBarType.shifting,
       backgroundColor: primarycolor,
         selectedItemColor: blackcolor,
-        unselectedItemColor: Colors.white,
+        unselectedItemColor: Colors.green,
 
   )
   );

@@ -35,6 +35,7 @@ int index=0;
           bottomNavigationBar: BottomNavigationBar(currentIndex: index,
             onTap: (value) {
               index=value;
+
               setState(() {
 
               });
@@ -54,6 +55,7 @@ int index=0;
           ],),
           body:tabs[index] ,
         ),
+
       ],
     );
   }
